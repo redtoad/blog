@@ -4,6 +4,7 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2013/02/19/arduino-via-the-command-line
    2012/02/27/migrating-to-google-apps
    2010/08/03/exception-handling
    2009/12/09/amazonproduct-nosetest
