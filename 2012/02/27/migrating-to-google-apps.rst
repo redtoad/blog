@@ -1,6 +1,11 @@
 Migrating to Google Apps
 ========================
 
+.. author:: default
+.. categories:: admin
+.. tags:: google apps, e-mail
+.. comments::
+
 There is a nice piece of software called `imapsync`_. Unfortunately, the author
 decided to stop releasing the package as OpenSource but rather sell it.  42
 Euros seemed a tad high for my use case, especially since I'm planning to use
@@ -8,7 +13,7 @@ this only once.
 
 Luckily, there is still an older version `available in the debian archive`_. A simple ::
 
-    sudo apt-get install libmail-imapclient-perl
+    sudo apt-get install libmail-imapclient-perl libdate-manip-perl libterm-readkey-perl
     sudo dpkg -i ~/Downloads/imapsync_1.315+dfsg-1_all.deb 
 
 will install the dependencies, after which you can simply start the copying
@@ -45,7 +50,3 @@ Further information:
 .. _imapsync: http://imapsync.lamiral.info/
 .. _available in the debian archive: http://snapshot.debian.org/package/imapsync/1.315%2Bdfsg-1/
 
-.. author:: default
-.. categories:: admin
-.. tags:: google apps, e-mail
-.. comments::
