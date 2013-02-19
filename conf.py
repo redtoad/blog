@@ -20,7 +20,7 @@ author = 'Sebastian Rahlf'
 copyright = '2009-%s, %s' % (datetime.date.today().year, author)
 
 # Change this to your blog root URL (required for RSS feed)
-website = 'http://127.0.0.1/blog/html/'                              
+website = 'http://basti.bitbucket.org/'
 
 # **************************************************************
 # More tweaks you can do
