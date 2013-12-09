@@ -1,0 +1,3 @@
+pelican
+Fabric
+-e git+https://github.com/getpelican/pelican-plugins#egg=pelican-plugins

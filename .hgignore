@@ -1,2 +1,6 @@
 
 # ^blog/
+pelican.pid
+srv.pid
+output
+.idea
