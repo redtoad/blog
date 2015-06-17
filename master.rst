@@ -2,6 +2,12 @@ Sitemap
 =======
 
 .. toctree::
+   :hidden:
+
+   404.rst
+
+
+.. toctree::
    :maxdepth: 1
 
    2013/03/10/mybooklive-ssh
