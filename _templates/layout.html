@@ -3,7 +3,7 @@
 {%- block header -%}
   <header role="banner">
     <hgroup>
-      <img src="{{ pathto('_static/rotekroete-500.png', 1) }}" />
+      <a href="{{ pathto(pages[0][0]) }}"><img src="{{ pathto('_static/logo.png', 1) }}" /></a>
       <!-- <h1><a href="{{ pathto(pages[0][0]) }}">{{ shorttitle|e }}</a></h1> -->
       {%- if tagline -%}<h2>{{ tagline|e }}</h2>{%- endif -%}
     </hgroup>
