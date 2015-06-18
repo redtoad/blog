@@ -36,7 +36,7 @@ That should be all that's needed. Please note that this process can take a while
 Further information:
 
 * http://www.ducea.com/2010/08/09/howto-migrate-your-email-to-google-apps-over-the-weekend/ (where I got most of my information from)
-* http://www.hanselman.com/blog/MigratingAFamilyToGoogleAppsFromGmailThunderbirdOutlookAndOthersTheDefinitiveGuide.aspx
+* `http://www.hanselman.com/blog/Migrating...aspx <http://www.hanselman.com/blog/MigratingAFamilyToGoogleAppsFromGmailThunderbirdOutlookAndOthersTheDefinitiveGuide.aspx>`_
 
 .. _imapsync: http://imapsync.lamiral.info/
 .. _available in the debian archive: http://snapshot.debian.org/package/imapsync/1.315%2Bdfsg-1/
