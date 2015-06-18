@@ -4,6 +4,7 @@ Exception handling: Extracting local variables
 
 .. categories:: python
 .. tags:: exceptions
+.. comments::
 
 In Python it is possible to go back one `frame`_ in a traceback to extract
 state information like local variables (adapted from example `found here`_).

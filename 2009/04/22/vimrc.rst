@@ -3,6 +3,7 @@ Custom ``.vimrc``
 =================
 
 .. tags:: vim
+.. comments::
 
 For the first time in ages I have used vim again. And, of course, the first 
 thing I did was to customise the default behaviour.

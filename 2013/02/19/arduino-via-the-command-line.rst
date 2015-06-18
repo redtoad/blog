@@ -4,6 +4,7 @@ Arduino via the command line
 
 .. categories:: project greenhouse
 .. tags:: arduino, raspberry
+.. comments::
 
 For my `Project Greenhouse` I need to upload an Ardunio sketch from my Raspberry Pi.
 

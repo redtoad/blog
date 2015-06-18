@@ -2,8 +2,9 @@
 Running Django under Debian
 ===========================
 
-.. tags:: Django, Debian
 .. categories:: python
+.. tags:: Django, Debian
+.. comments::
 
 I've long been trying to get Django_ play nicely with lighttpd_ *and* start automatically under Debian. Recently I've stumbled across a init.d script on the `Django wiki`_ which does just that.
 

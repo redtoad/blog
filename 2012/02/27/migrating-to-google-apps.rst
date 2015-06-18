@@ -3,6 +3,7 @@ Migrating to Google Apps
 
 .. categories:: admin
 .. tags:: google apps, e-mail
+.. comments::
 
 There is a nice piece of software called `imapsync`_. Unfortunately, the author decided to stop releasing the package as OpenSource but rather sell it.  42 Euros seemed a tad high for my use case, especially since I'm planning to use this only once.
 

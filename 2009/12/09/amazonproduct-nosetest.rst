@@ -4,6 +4,7 @@
 
 .. categories:: python
 .. tags:: amazon, tests, nose
+.. comments::
 
 I've recently started to add unittests to :ref:`python-amazon-product-api`. Amazon how happy a simple number can make feel!
 

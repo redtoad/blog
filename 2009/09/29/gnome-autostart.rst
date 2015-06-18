@@ -2,6 +2,7 @@ How to have applications start automatically in gnome
 =====================================================
 
 .. tags:: gnome, autostart
+.. comments::
 
 I'm running ubuntu jaunty on my office machine. For a 
 while now I have wanted to start pidgin automatically 
