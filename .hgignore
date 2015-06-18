@@ -1,1 +1,7 @@
 blog
+.idea
+
+syntax: glob
+*.pyc
+*.pyo
+*.orig
