@@ -3,6 +3,7 @@ Running Django under Debian
 ===========================
 
 .. tags:: Django, Debian
+.. categories:: python
 
 I've long been trying to get Django_ play nicely with lighttpd_ *and* start automatically under Debian. Recently I've stumbled across a init.d script on the `Django wiki`_ which does just that.
 
@@ -13,10 +14,12 @@ In other words: If you have configured ``DJANGO_SITES="myapp myapp2 myapp3"`` wh
 Here is the init.d script in full length:
 
 .. literalinclude:: etc-init-d-django.txt
+   :language: sh
 
 The default values are set in ``/etc/default/django``.
 
 .. literalinclude:: etc-default-django.txt
+   :language: sh
 
 .. _Django: http://www.djangoproject.com
 .. _lighttpd: http://lighttpd.net
