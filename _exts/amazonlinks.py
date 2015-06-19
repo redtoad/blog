@@ -30,7 +30,7 @@ def inject_affiliate_tag(url, tag):
 
 def replace_links(app, doctree):
     nodes = doctree.traverse(docutils.nodes.reference)
-    tag = 'redtoad-10'
+    tag = 'redtoad-21'
 
     for node in nodes:
         url = node.get('refuri', None)
