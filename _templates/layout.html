@@ -9,3 +9,21 @@
     </hgroup>
   </header>
 {% endblock -%}
+
+{%- block css -%}
+  {{ super() }}
+  <style type="text/css">
+    .admonition {
+      border: black 1px solid;
+      padding: 1em;
+    }
+    .admonition-title {
+      display: none;
+    }
+    .admonition p {
+      margin: 0;
+    }
+
+  </style>
+
+{% endblock -%}
