@@ -71,6 +71,7 @@ extensions = [
     'tinkerer.ext.blog', 
     'tinkerer.ext.disqus',
     'projectlinks',
+    'amazonlinks',
 ]
 
 # Add other template paths here
