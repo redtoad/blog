@@ -30,14 +30,19 @@ def inject_affiliate_tag(url, tag):
 
 def replace_links(app, doctree):
     nodes = doctree.traverse(docutils.nodes.reference)
-    tag = 'redtoad-21'
+    tag = app.config.amazon_affiliate_id
+
+    # stop right here if there is no tag configured
+    if not tag:
+        return
 
     for node in nodes:
         url = node.get('refuri', None)
+        app.debug('Found link %s.' % url, True)
         node['refuri'] = inject_affiliate_tag(url, tag)
-    #import pdb; pdb.set_trace()
 
 
 def setup(app):
+    app.add_config_value('amazon_affiliate_id', None, True)
     app.connect('doctree-read', replace_links)
 

@@ -94,6 +94,9 @@ html_sidebars = {
 # Add an index to the HTML documents.
 html_use_index = False
 
+
+amazon_affiliate_id = 'redtoad-21'
+
 # **************************************************************
 # Do not modify below lines as the values are required by
 # Tinkerer to play nice with Sphinx
