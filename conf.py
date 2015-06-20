@@ -70,6 +70,7 @@ first_page_title = None
 extensions = [
     'tinkerer.ext.blog', 
     'tinkerer.ext.disqus',
+    'sitemap',
     'projectlinks',
     'amazonlinks',
 ]
