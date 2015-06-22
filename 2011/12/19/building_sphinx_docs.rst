@@ -13,7 +13,6 @@ and then simply watch for changes in your docs directory::
         make clean && make html
     done
 
-.. author:: default
 .. categories:: python
 .. tags:: docs, Sphinx
 .. comments::

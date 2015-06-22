@@ -1,7 +1,6 @@
 Recover data from encrypted home partition
 ==========================================
 
-.. author:: default
 .. categories:: admin
 .. tags:: backup
 .. comments::
