@@ -14,6 +14,8 @@ So far there are 3 things that I need regularly:
 * Toggle paste mode (to avoid unintended indenting) with <F9>
 * Execute python script in buffer with <F5>
 
+.. more::
+
 All of this can be done with "my" .vimrc.
 
 .. literalinclude:: .vimrc

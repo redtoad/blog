@@ -14,6 +14,8 @@ For my `Project Greenhouse` I need to upload an Ardunio sketch from my Raspberry
 
 Add a Makefile (following `these instructions`_) which will compile any file ``.ino`` in the same directory.
 
+.. more::
+
 .. literalinclude:: Makefile
     :language: make
 

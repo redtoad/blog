@@ -7,6 +7,8 @@ Migrating to Google Apps
 
 There is a nice piece of software called `imapsync`_. Unfortunately, the author decided to stop releasing the package as OpenSource but rather sell it.  42 Euros seemed a tad high for my use case, especially since I'm planning to use this only once.
 
+.. more::
+
 Luckily, there is still an older version `available in the debian archive`_. A simple ::
 
     sudo apt-get install libmail-imapclient-perl libdate-manip-perl libterm-readkey-perl
