@@ -10,11 +10,11 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
-   2011/12/19/building_sphinx_docs
    2015/06/22/recover_data_from_encrypted_home_partition
    2013/03/10/mybooklive-ssh
-   2012/02/27/migrating-to-google-apps
    2013/02/19/arduino-via-the-command-line
+   2012/02/27/migrating-to-google-apps
+   2011/12/19/building_sphinx_docs
    2010/08/03/exception-handling
    2009/12/09/amazonproduct-nosetest
    2009/11/19/django-debian
