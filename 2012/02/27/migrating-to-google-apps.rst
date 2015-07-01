@@ -5,6 +5,16 @@ Migrating to Google Apps
 .. tags:: google apps, e-mail
 .. comments::
 
+.. note:: 
+
+   **Update 2015-07-01:**
+   Alternatively you can use `duplicity <http://duplicity.nongnu.org/>`_::
+
+       duplicity --encrypt-key "XXXXXXXX" --sign-key "XXXXXXXX" \
+           --volsize 10 --imap-mailbox "LABEL" \
+           /volume1/was_auch_immer/ \
+           imaps://ACCOUNT:PASSWORD@imap.gmail.com/ADDRESS
+
 There is a nice piece of software called `imapsync`_. Unfortunately, the author decided to stop releasing the package as OpenSource but rather sell it.  42 Euros seemed a tad high for my use case, especially since I'm planning to use this only once.
 
 .. more::
