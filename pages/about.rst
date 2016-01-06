@@ -1,9 +1,7 @@
 About
 =====
 
-Sebastian is a...
+Hi! My name is Sebastian and I'm a software architect, digital tinkerer and father of two. 
+You find me on `Bitbucket <https://bitbucket.org/basti/>`_ and `Github <https://github.com/redtoad/>`_.
+This is my personal blog.
 
-* `level 19`_ Python developer
-* lives in Bonn, Germany
-
-.. _level 19: http://www.pythonchallenge.com/
