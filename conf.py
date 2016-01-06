@@ -22,7 +22,7 @@ description = 'This is an awesome blog'
 author = 'Sebastian Rahlf'
 
 # Change this to your copyright string
-copyright = '2003 - 2015, ' + author
+copyright = '2003 - 2016, ' + author
 
 # Change this to your blog root URL (required for RSS feed)
 website = 'http://redtoad.de/blog/'
@@ -48,7 +48,7 @@ html_theme_options = {}
 rss_service = None
 
 # Generate full posts for RSS feed even when using "read more"
-rss_generate_full_posts = False
+rss_generate_full_posts = True
 
 # Number of blog posts per page
 posts_per_page = 10
