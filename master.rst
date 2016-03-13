@@ -10,6 +10,7 @@ Sitemap
 .. toctree::
    :maxdepth: 1
 
+   2015/12/23/create_a_small_booklet
    2015/06/22/recover_data_from_encrypted_home_partition
    2013/03/10/mybooklive-ssh
    2013/02/19/arduino-via-the-command-line
