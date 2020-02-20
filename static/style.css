@@ -2,3 +2,7 @@
 .avatar img {
     border-radius: 0;
 }
+
+td.blob-num {
+    border: 0;
+}
