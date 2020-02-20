@@ -2,15 +2,12 @@
 title: "Migrating to Google Apps"
 date: "2012-02-27"
 # categories:: admin
-# tags:: google apps, e-mail
-# comments::
+tags: [google apps, e-mail]
 ---
 
-There is a nice piece of software called `imapsync`_. Unfortunately, the author decided to stop releasing the package as OpenSource but rather sell it.  42 Euros seemed a tad high for my use case, especially since I'm planning to use this only once.
+There is a nice piece of software called [imapsync](http://imapsync.lamiral.info/). Unfortunately, the author decided to stop releasing the package as OpenSource but rather sell it.  42 Euros seemed a tad high for my use case, especially since I'm planning to use this only once.
 
-.. more::
-
-Luckily, there is still an older version `available in the debian archive`_. A simple ::
+Luckily, there is still an older version [available in the debian archive](http://snapshot.debian.org/package/imapsync/1.315%2Bdfsg-1/). A simple ::
 
     sudo apt-get install libmail-imapclient-perl libdate-manip-perl libterm-readkey-perl
     sudo dpkg -i ~/Downloads/imapsync_1.315+dfsg-1_all.deb 
@@ -29,7 +26,7 @@ To make sure that the e-mails end up in the right place, you need to run the sam
       --prefix2 '[Gmail]/' --folder 'INBOX.Sent' \
       --regextrans2 's/Sent/Gesendet/'
 
-and ::
+and
 
     imapsync ... \
       --prefix2 '[Gmail]/' --folder 'INBOX.Drafts' \
@@ -42,6 +39,4 @@ Further information:
 * http://www.ducea.com/2010/08/09/howto-migrate-your-email-to-google-apps-over-the-weekend/ (where I got most of my information from)
 * `http://www.hanselman.com/blog/Migrating...aspx <http://www.hanselman.com/blog/MigratingAFamilyToGoogleAppsFromGmailThunderbirdOutlookAndOthersTheDefinitiveGuide.aspx>`_
 
-.. _imapsync: http://imapsync.lamiral.info/
-.. _available in the debian archive: http://snapshot.debian.org/package/imapsync/1.315%2Bdfsg-1/
 

@@ -1,3 +1,19 @@
+---
+title: "Running Django under Debian"
+date: "2009-11-19"
+categories: ["Python"]
+tags: ["Django", "Debian"]
+---
+
+I've long been trying to get Django_ play nicely with lighttpd_ *and* start automatically under Debian. Recently I've stumbled across a init.d script on the `Django wiki`_ which does just that.
+
+What I've altered is the ability to auto-detect if there is a virtualenv which should be used. This is the case if there is a directory in the configured virtualenv root bath which has the same name as the Django site *and* also has a Python binary.
+
+In other words: If you have configured ``DJANGO_SITES="myapp myapp2 myapp3"`` which are Django projects lying in the ``SITES_PATH`` directory and you have a virtualenv, say ``/usr/local/virtualenvs/myapp``, and ``ENVIRONMENT_PATH`` set up to ``/usr/local/virtualenvs``, the init.d script will use ``/usr/local/virtualenvs/myapp/bin/python`` to run the fastcgi.
+
+Here is the init.d script in full length:
+
+```bash
 #! /bin/sh
 ### BEGIN INIT INFO
 # Provides:          FastCGI servers for Django
@@ -161,4 +177,29 @@ case "$ACTION" in
 esac
 
 exit 0
+```
 
+The default values are set in ``/etc/default/django``.
+
+```bash
+# django project names/directories
+DJANGO_SITES="myapp myapp2 myapp3"
+
+# path to the directory with your django projects
+#SITES_PATH=/home/django/projects
+
+# path to the directory conrtaining all site-specific virtualenvs 
+# (see http://pypi.python.org/pypi/virtualenv for more information)
+ENVIRONMENT_PATH=$SITES_PATH/environment
+
+# path to the directory for socket and pid files
+RUNFILES_PATH=$SITES_PATH/run
+
+# please make sure this is NOT root
+# local user prefered, www-data accepted
+RUN_AS=django
+
+# maximum requests before fast-cgi process respawns
+# (a.k.a. get killed and let live)
+MAXREQUESTS=100
+```

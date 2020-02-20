@@ -1,7 +1,7 @@
 ---
 title: "Create a small booklet"
 date: 2015-12-23
-#tags: [pstools, pdf, booklet]
+tags: [pstools, pdf, booklet]
 ---
 
 We have quite a number of addresses in various locations both digital and offline. 

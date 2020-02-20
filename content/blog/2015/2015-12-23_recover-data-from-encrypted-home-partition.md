@@ -1,16 +1,13 @@
 ---
 title: "Recover data from encrypted home partition"
 date: "2015-12-23"
-#categories: admin
-#tags: backup
+tags: [admin, backup]
 ---
 
 I've had an old desktop computer running Ubuntu sitting in my corner for quite some time. 
 Now that I have a `HDD dock <http://amazon.de/dp/B0099PUVWO/>`_, it was time to see what could be salvaged!
 
 Since I have not written down the mount passphrase (big mistake!), it took some searching...
-
-.. more::
 
 Find /home and / partitions
 ------------------------------
