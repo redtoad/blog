@@ -2,13 +2,10 @@
 all: clean publish
 
 clean:
-	rm blog/html -r
-	rm blog/doctrees -r
+	rm -rf public/
 
-publish: blog/html/index.html
-	rsync -avz blog/html/ redtoad.de:/var/www/redtoad.de/blog 
-	scp blog/html/sitemap.xml redtoad.de:/var/www/redtoad.de/
-
-blog/html/index.html:
-	tinker --build
+publish:
+	hugo
+	rsync -avz public/ redtoad.de:/var/www/redtoad.de
+	#scp blog/html/sitemap.xml redtoad.de:/var/www/redtoad.de/
 
