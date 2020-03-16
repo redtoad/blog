@@ -1,6 +1,6 @@
 baseURL = "https://redtoad.de/"
-languageCode = "en"
 title = "redtoad"
+
 theme = "coder"
 
 languagecode = "en"
@@ -13,22 +13,20 @@ pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-favicon = "static/favicon.ico"
-
-# coder
+disqusShortname = "yourdiscussshortname"
 
 [params]
 
     author = "Sebastian Rahlf"
-#    description = "John Doe's personal website"
+    description = "John Doe's personal website"
     keywords = "blog,developer,personal"
-#    info = "Full Stack DevOps and Magician"
+    info = "Full Stack DevOps and Magician"
     avatarurl = "logo.png"
-#    footercontent = "Enter a text here."
+    footercontent = "Enter a text here."
 
     dateformat = "2006-01-06"
 
-    hideCredits = false
+    hideCredits = true
     hideCopyright = false
     since = 2009
 
@@ -55,6 +53,7 @@ favicon = "static/favicon.ico"
     # Custom JS
     custom_js = []
 
+
 [taxonomies]
   category = "categories"
   series = "series"
@@ -78,17 +77,17 @@ favicon = "static/favicon.ico"
     rel = "alternate"
     type = "application/rss+xml"
 
-#[[menu.main]]
-#name = "About"
-#weight = 1
-#url = "about/"
+[[menu.main]]
+name = "About"
+weight = 1
+url = "about/"
 
 [[menu.main]]
 name = "Blog"
 weight = 2
-url = "blog/"
+url = "posts/"
 
-#[[menu.main]]
-#name = "Projects"
-#weight = 3
-#url = "projects/"
+[[menu.main]]
+name = "Projects"
+weight = 3
+url = "projects/"
