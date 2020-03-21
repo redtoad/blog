@@ -13,7 +13,7 @@ pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "yourdiscussshortname"
+disqusShortname = "redtoad"
 
 [params]
 
@@ -69,12 +69,23 @@ disqusShortname = "yourdiscussshortname"
 [[params.social]]
     name = "Bitbucket"
     icon = "fab fa-bitbucket"
-    weight = 1
+    weight = 2
     url = "https://bitbucket.org/basti/"
+[[params.social]]
+    name = "GitLab"
+    icon = "fab fa-gitlab"
+    weight = 3
+    url = "https://gitlab.com/redtoad/"
+#[[params.social]]
+#    name = "Twitter"
+#    icon = "fab fa-twitter"
+#    weight = 4
+#    url = "https://twitter.com/redtoad"
+#    type = "application/rss+xml"
 [[params.social]]
     name = "RSS"
     icon = "fas fa-rss"
-    weight = 6
+    weight = 5
     url = "https://redtoad.de/index.xml"
     rel = "alternate"
     type = "application/rss+xml"
