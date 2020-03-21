@@ -8,6 +8,6 @@ clean:
 	rm -rf public/
 
 publish: clean build
-	rsync -avz public/ redtoad.de:/var/www/redtoad.de
+	rsync -avz public/ redtoad.de:/var/www/redtoad.de --delete
 	#scp blog/html/sitemap.xml redtoad.de:/var/www/redtoad.de/
 

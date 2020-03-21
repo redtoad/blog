@@ -18,11 +18,11 @@ disqusShortname = "yourdiscussshortname"
 [params]
 
     author = "Sebastian Rahlf"
-    description = "John Doe's personal website"
+    description = "Sebastian Rahlf's personal website"
     keywords = "blog,developer,personal"
-    info = "Full Stack DevOps and Magician"
-    avatarurl = "logo.png"
-    footercontent = "Enter a text here."
+#    info = "Full Stack DevOps and Magician"
+    avatarurl = "images/logo.png"
+#    footercontent = "Enter a text here."
 
     dateformat = "2006-01-06"
 
