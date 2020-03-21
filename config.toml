@@ -53,6 +53,8 @@ disqusShortname = "yourdiscussshortname"
     # Custom JS
     custom_js = []
 
+[permalinks]
+  posts = "/posts/:year/:month/:day/:title/"
 
 [taxonomies]
   category = "categories"
